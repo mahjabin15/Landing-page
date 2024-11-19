@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Sketch&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik+Wet+Paint&display=swap');
+
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+body{
+   background-color: rgba(1, 7, 1, 0.934);
+}
+ .icon a:hover{
+   color: skyblue;
+}
+nav a{
+  font-size: 15px;
+   padding-left: 10px;
+   padding-right: 15px;
+}
+
+.nav-second li a{
+color: rgb(246, 248, 249);
+min-width: 100%;
+font-size: 18px;
+float: left;
+font-weight: 600;
+
+text-align: right;
+}
+.nav-second a:hover{
+   color: skyblue;
+
+
+}
+.logo{
+   font-size: 20px;
+   color: white;
+text-decoration: none;
+}
+.hero{
+   background: url(../image/sky.jpeg);
+   height: fit-content;
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+
+
+}
+.nav-second{
+   z-index: 1;
+}
+.solo{
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.solo h5{
+   font-weight: 100;
+}
+.solo h1{
+   font-size: 65px;
+   letter-spacing: 3px;
+   font-family: 'Courier New', Courier, monospace;
+ 
+}
+.search{
+   align-items: center;
+   justify-content: center;
+   display: flex;
+   
+
+}
+.bar-control{
+   width: 300px;
+   height: 45px;
+   padding: 1rem;
+   border: none;
+   outline: none;
+   overflow: hidden;
+   border-radius: 1rem 0rem 0rem 1rem;
+}
+.src-btn{
+   width: 100px;
+height: 48px;
+background-color: black;
+border: none;
+outline: none;
+border-radius: 0rem 1rem 1rem 0rem;
+}
+
+.src-btn i{
+   color: whitesmoke;
+   font-size: 20px;
+}
+.description{
+   padding: 3rem 0 2rem 0;
+}
+.description p{
+   letter-spacing: 2px;
+}
+.description h2{
+   font-weight: 400;
+   letter-spacing: 1px;
+}
+
+.card i{
+   color: gold;
+}
+.card h4{
+ text-align: left;
+ color: whitesmoke;
+}
+.card{
+   background-color: black;
+   color: white;
+   border-radius: 15px;
+  
+}
+.explore{
+   width: 250px;
+   margin-left: 35%;
+   margin-right: 35%;
+   margin-top: 2%;
+}
+.quatation{
+   color: rgb(21, 189, 255);
+   font-size: 45px;
+   padding-left: 45%;
+   padding-top: 5%;
+}
+.lorem{
+   color:aliceblue;
+   letter-spacing: 2px;
+   padding-left: 5%;
+   padding-top: 5%;
+   width:700px;
+}
+.btn-custom{
+   background-color: skyblue;
+   color: whitesmoke;
+   margin-left: 25px;
+}
+.hotel{
+   width: 100%;
+height: 75%;
+   
+}
+.hotel-des{
+   padding-left: 25%;
+   width: 600px;
+   z-index: 1;
+   letter-spacing: 2px;
+   text-align:left;
+}
+.hotel-solo{
+   margin-left: 25%;
+}
+.bag{
+   width: 100%;
+   height: 75%;
+}
+.brand{
+   align-items: center;
+   justify-content: center;
+   display: flex;
+}
+.social {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+ 
+}
+.social >.icon{
+   padding-left: 2rem;
+}
+.social>.icon:hover{
+   color: rgb(13, 109, 148);
+}
+.designer{
+   opacity: 0.5;
+}
